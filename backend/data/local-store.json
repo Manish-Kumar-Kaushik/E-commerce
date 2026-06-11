@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "_id": "000000000000000000000001",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "phone": "",
+      "role": "admin",
+      "addresses": [],
+      "createdAt": "2026-04-02T14:46:40.700Z",
+      "updatedAt": "2026-04-02T16:08:12.015Z"
+    },
+    {
+      "_id": "000000000000000000000002",
+      "name": "Demo User",
+      "email": "user@example.com",
+      "password": "user123",
+      "phone": "",
+      "role": "customer",
+      "addresses": [],
+      "createdAt": "2026-04-02T14:46:40.700Z",
+      "updatedAt": "2026-04-02T14:46:40.700Z"
+    }
+  ],
+  "products": [],
+  "collections": [],
+  "vendors": [],
+  "carts": [
+    {
+      "_id": "000000000000000000000001",
+      "user": "000000000000000000000001",
+      "items": [],
+      "totalItems": 0,
+      "totalPrice": 0,
+      "createdAt": "2026-04-02T16:39:18.814Z",
+      "updatedAt": "2026-04-02T16:39:18.814Z"
+    }
+  ],
+  "orders": []
+}

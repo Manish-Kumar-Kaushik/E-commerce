@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "_id": "000000000000000000000001",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "phone": "",
+      "role": "admin",
+      "addresses": [],
+      "createdAt": "2026-04-01T17:53:16.286Z",
+      "updatedAt": "2026-04-01T17:53:16.287Z"
+    },
+    {
+      "_id": "000000000000000000000002",
+      "name": "Demo User",
+      "email": "user@example.com",
+      "password": "User@123",
+      "phone": "",
+      "role": "customer",
+      "addresses": [
+        {
+          "_id": "1775066022469",
+          "label": "Home",
+          "fullName": "Demo User",
+          "phone": "9999999999",
+          "line1": "Test Address",
+          "city": "Delhi",
+          "state": "Delhi",
+          "postalCode": "110001",
+          "country": "India",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-04-01T17:53:16.287Z",
+      "updatedAt": "2026-04-01T17:53:42.469Z"
+    }
+  ],
+  "products": [],
+  "collections": [
+    {
+      "_id": "453b9e8c6df584b698f234f1",
+      "name": "Smoke Drop",
+      "bannerImage": "http://127.0.0.1:5055/media/products/1775065996301-740be475-7fff-4186-86ca-f542ae023cb9.png",
+      "description": "Smoke collection banner",
+      "slug": "smoke-drop",
+      "isActive": true,
+      "createdAt": "2026-04-01T17:53:16.329Z",
+      "updatedAt": "2026-04-01T17:53:16.329Z"
+    }
+  ],
+  "vendors": [],
+  "carts": [
+    {
+      "_id": "000000000000000000000002",
+      "user": "000000000000000000000002",
+      "items": [],
+      "totalItems": 0,
+      "totalPrice": 0,
+      "createdAt": "2026-04-01T17:53:42.472Z",
+      "updatedAt": "2026-04-01T17:56:37.458Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "de469f2bb4fb6fb578514412",
+      "user": "000000000000000000000002",
+      "items": [
+        {
+          "product": "7b7f2f17685224a8d8a59188",
+          "name": "Smoke Test Product",
+          "slug": "smoke-test-product",
+          "image": "http://127.0.0.1:5055/media/products/1775065996301-740be475-7fff-4186-86ca-f542ae023cb9.png",
+          "size": "M",
+          "price": 1499,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Demo User",
+        "phone": "9999999999",
+        "line1": "Test Address",
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "India"
+      },
+      "subtotalAmount": 1499,
+      "shippingAmount": 0,
+      "discountAmount": 0,
+      "totalAmount": 1499,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "orderStatus": "confirmed",
+      "couponCode": "",
+      "paymentDetails": {},
+      "inventoryProcessed": true,
+      "createdAt": "2026-04-01T17:53:42.477Z",
+      "updatedAt": "2026-04-01T17:53:42.477Z"
+    },
+    {
+      "_id": "77a9abae792c216395b300a2",
+      "user": "000000000000000000000002",
+      "items": [
+        {
+          "product": "7b7f2f17685224a8d8a59188",
+          "name": "Smoke Test Product",
+          "slug": "smoke-test-product",
+          "image": "http://127.0.0.1:5055/media/products/1775065996301-740be475-7fff-4186-86ca-f542ae023cb9.png",
+          "size": "M",
+          "price": 1499,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Demo User",
+        "phone": "9999999999",
+        "line1": "Test Address",
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "India"
+      },
+      "subtotalAmount": 1499,
+      "shippingAmount": 0,
+      "discountAmount": 0,
+      "totalAmount": 1499,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "orderStatus": "confirmed",
+      "couponCode": "",
+      "paymentDetails": {},
+      "inventoryProcessed": true,
+      "createdAt": "2026-04-01T17:56:37.458Z",
+      "updatedAt": "2026-04-01T17:56:37.458Z"
+    }
+  ]
+}
