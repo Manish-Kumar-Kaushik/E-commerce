@@ -102,6 +102,7 @@ test('product routes expose review endpoints', () => {
   assert.deepEqual(routePaths(productRoutes), [
     { path: '/', methods: ['get', 'post'] },
     { path: '/:identifier', methods: ['delete', 'get', 'put'] },
+    { path: '/:identifier/reviews/eligibility', methods: ['get'] },
     { path: '/:identifier/reviews', methods: ['get', 'post'] },
     { path: '/reviews/:id', methods: ['delete', 'patch'] },
   ])
